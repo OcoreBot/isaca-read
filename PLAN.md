@@ -40,7 +40,7 @@
 
 ## 2. How it runs
 
-Fully automated in GitHub Actions (no local machine needed) via one reusable generator; provider-agnostic (Claude OAuth/Sonnet today; Gemini, Cursor, or Copilot by swapping one repo secret). Output is Markdown on the `gh-pages` branch, rendered by GitHub Pages at https://prishs.github.io/isaca-read/; files older than 30 days are removed weekly with squashed history. Prompts (source lists, formats, anti-hallucination and fetch-efficiency rules) live in `prompts/`.
+Fully automated in GitHub Actions (no local machine needed) via one reusable generator; provider-agnostic (Claude OAuth/Sonnet today; Gemini, Cursor, or Copilot by swapping one repo secret). Output is Markdown on the `gh-pages` branch, rendered by GitHub Pages at https://ocorebot.github.io/isaca-read/; files older than 30 days are removed weekly with squashed history. Prompts (source lists, formats, anti-hallucination and fetch-efficiency rules) live in `prompts/`.
 
 Your part: read the site (or `git fetch origin gh-pages`), and edit prompts/plan on `main` as needs change.
 
