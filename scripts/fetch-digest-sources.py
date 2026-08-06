@@ -14,7 +14,7 @@ from email.utils import parsedate_to_datetime
 from html import unescape
 from typing import Iterable
 
-USER_AGENT = "isaca-read/1.0 (+https://github.com/prishs/isaca-read)"
+USER_AGENT = "isaca-read/1.0 (+https://github.com/OcoreBot/isaca-read)"
 
 
 @dataclass(frozen=True)
